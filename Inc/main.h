@@ -62,12 +62,24 @@ void Error_Handler(void);
 #define USER_Btn_GPIO_Port GPIOC
 #define MCO_Pin GPIO_PIN_0
 #define MCO_GPIO_Port GPIOH
+#define MOSI_Pin GPIO_PIN_2
+#define MOSI_GPIO_Port GPIOB
 #define LD3_Pin GPIO_PIN_14
 #define LD3_GPIO_Port GPIOB
 #define STLK_RX_Pin GPIO_PIN_8
 #define STLK_RX_GPIO_Port GPIOD
 #define STLK_TX_Pin GPIO_PIN_9
 #define STLK_TX_GPIO_Port GPIOD
+#define CS_SET_Pin GPIO_PIN_8
+#define CS_SET_GPIO_Port GPIOC
+#define DC_SET_Pin GPIO_PIN_9
+#define DC_SET_GPIO_Port GPIOC
+#define SCK_Pin GPIO_PIN_10
+#define SCK_GPIO_Port GPIOC
+#define MISO_Pin GPIO_PIN_11
+#define MISO_GPIO_Port GPIOC
+#define RST_SET_Pin GPIO_PIN_12
+#define RST_SET_GPIO_Port GPIOC
 #define LD2_Pin GPIO_PIN_7
 #define LD2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
