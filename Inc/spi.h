@@ -31,6 +31,7 @@
 /* USER CODE END Includes */
 
 extern SPI_HandleTypeDef hspi3;
+extern SPI_HandleTypeDef hspi5;
 
 /* USER CODE BEGIN Private defines */
 #define LCD_X_SIZE	        240
@@ -70,6 +71,7 @@ extern SPI_HandleTypeDef hspi3;
 /* USER CODE END Private defines */
 
 void MX_SPI3_Init(void);
+void MX_SPI5_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 void Lcd_WriteIndex(uint8_t Index);
